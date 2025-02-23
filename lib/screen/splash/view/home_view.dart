@@ -12,14 +12,14 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.black54,
         title: DropdownButton<String>(
           value: 'Location',
           dropdownColor: Colors.black,
           icon: Icon(Icons.arrow_drop_down, color: Colors.white),
           style: TextStyle(color: Colors.white),
           onChanged: (String? newValue) {},
-          items: <String>['Location', 'New York', 'Los Angeles', 'Chicago']
+          items: <String>['Location', 'Phnom Phen', 'Sihanoukville', 'Siemreap','Battombang']
               .map<DropdownMenuItem<String>>((String value) {
             return DropdownMenuItem<String>(
               value: value,

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_project/screen/auth/register/view/login_view.dart';
 import 'package:flutter_project/screen/auth/register/view/register_view.dart';
 import 'package:flutter_project/screen/splash/view/home_view.dart';
+import 'package:flutter_project/screen/splash/view/info_view.dart';
 import 'package:flutter_project/screen/splash/view/movie_view.dart';
 import 'package:flutter_project/screen/splash/view/slide_view.dart';
 import 'package:flutter_project/widgets/custom_button_widget.dart';
@@ -73,20 +74,28 @@ class _SplashViewState extends State<SplashView> {
             title: "Home",
             backgroundColor: Colors.blue,
           ),
+          // CustomButtonWedget(
+          //   isLoading: true,
+          //   onTab: (){
+          //     Navigator.push(context, MaterialPageRoute(builder: (context) => SlideView()));
+          //   },
+          //   title: "Slide",
+          //   backgroundColor: Colors.blue,
+          // ),
+          // CustomButtonWedget(
+          //   isLoading: true,
+          //   onTab: (){
+          //     Navigator.push(context, MaterialPageRoute(builder: (context) => MovieView()));
+          //   },
+          //   title: "View",
+          //   backgroundColor: Colors.blue,
+          // ),
           CustomButtonWedget(
             isLoading: true,
             onTab: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => SlideView()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => InfoView()));
             },
-            title: "Slide",
-            backgroundColor: Colors.blue,
-          ),
-          CustomButtonWedget(
-            isLoading: true,
-            onTab: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => MovieView()));
-            },
-            title: "View",
+            title: "Info",
             backgroundColor: Colors.blue,
           ),
         ],

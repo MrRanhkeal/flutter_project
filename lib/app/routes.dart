@@ -1,5 +1,8 @@
 import 'package:flutter_project/screen/auth/register/view/login_view.dart';
 import 'package:flutter_project/screen/auth/register/view/register_view.dart';
+import 'package:flutter_project/screen/splash/view/info_view.dart';
+import 'package:flutter_project/screen/splash/view/movie_view.dart';
+import 'package:flutter_project/screen/splash/view/slide_view.dart';
 import 'package:flutter_project/screen/splash/view/splash_view.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:flutter_project/screen/splash/view/home_view.dart';
@@ -10,6 +13,9 @@ class Routes {
     GetPage(name: RouteName.register, page: () => RegisterView()),
     GetPage(name: RouteName.login, page: () => LoginView()),
     GetPage(name: RouteName.home, page: () => HomeView()),
+    GetPage(name: RouteName.info, page: () => InfoView()),
+    GetPage(name: RouteName.movie, page: () => MovieView()),
+    GetPage(name: RouteName.slide, page: () => SlideView()),
   ];
 }
 
@@ -18,4 +24,7 @@ class RouteName {
   static const String register = "/register";
   static const String login = "/login";
   static const String home = "/home";
+  static const String info = "/info";
+  static const String movie = "/movie";
+  static const String slide = "/slide";
 }
