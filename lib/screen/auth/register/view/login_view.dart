@@ -31,14 +31,14 @@ class _LoginViewState extends State<LoginView> {
                   TextField(
                     controller: emailController,
                     decoration: InputDecoration(labelText: "Enter your Email", filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.black54),
                   ),
                   SizedBox(height: 10),
                   TextField(
                     controller: passwordController,
                     obscureText: true,
                     decoration: InputDecoration(labelText: "Enter your Password", filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.black54),
                   ),
                   SizedBox(height: 20),
                   ElevatedButton(

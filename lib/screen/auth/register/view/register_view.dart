@@ -33,27 +33,27 @@ class _RegisterViewState extends State<RegisterView> {
                   TextField(
                     controller: emailController,
                     decoration: InputDecoration(labelText: "Enter your Email", filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.black54),
                   ),
                   SizedBox(height: 10),
                   TextField(
                     controller: nameController,
                     decoration: InputDecoration(labelText: "Enter Your Full Name", filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.black54),
                   ),
                   SizedBox(height: 10),
                   TextField(
                     controller: passwordController,
                     obscureText: true,
                     decoration: InputDecoration(labelText: "Enter your Password", filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.black54),
                   ),
                   SizedBox(height: 10),
                   TextField(
                     controller: confirmPasswordController,
                     obscureText: true,
                     decoration: InputDecoration(labelText: "Confirm your Password", filled: true, fillColor: Colors.white, border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.black54),
                   ),
                   SizedBox(height: 20),
                   ElevatedButton(
@@ -66,7 +66,6 @@ class _RegisterViewState extends State<RegisterView> {
                         SizedBox(width: 10),
                         Text("Register"),
                         ColoredBox(color: Colors.black54),
-
                       ],
                     ),
                   ),
