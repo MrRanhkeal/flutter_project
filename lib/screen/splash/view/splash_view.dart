@@ -5,6 +5,7 @@ import 'package:flutter_project/screen/splash/view/home_view.dart';
 import 'package:flutter_project/screen/splash/view/info_view.dart';
 import 'package:flutter_project/screen/splash/view/ticket_view.dart';
 import 'package:flutter_project/screen/splash/view/booking_view.dart';
+import 'package:flutter_project/screen/splash/view/user_view.dart';
 import 'package:flutter_project/widgets/custom_button_widget.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -100,6 +101,14 @@ class _SplashViewState extends State<SplashView> {
           //   title: "Info",
           //   backgroundColor: Colors.blue,
           // ),
+          CustomButtonWedget(
+            isLoading: true,
+            onTab: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => UserView()));
+            },
+            title: "users",
+            backgroundColor: Colors.blue,
+          ),
         ],
       ),
     );

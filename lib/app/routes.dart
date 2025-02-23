@@ -3,6 +3,7 @@ import 'package:flutter_project/screen/auth/register/view/register_view.dart';
 import 'package:flutter_project/screen/splash/view/info_view.dart';
 import 'package:flutter_project/screen/splash/view/booking_view.dart';
 import 'package:flutter_project/screen/splash/view/splash_view.dart';
+import 'package:flutter_project/screen/splash/view/user_view.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:flutter_project/screen/splash/view/home_view.dart';
 import 'package:flutter_project/screen/splash/view/ticket_view.dart';
@@ -16,6 +17,7 @@ class Routes {
     GetPage(name: RouteName.info, page: () => InfoView()),
     GetPage(name: RouteName.ticket, page: () => TicketView()),
     GetPage(name: RouteName.booking, page: () => BookingView()),
+    GetPage(name: RouteName.users, page: () => UserView()),
   ];
 }
 
@@ -27,4 +29,5 @@ class RouteName {
   static const String info = "/info";
   static const String ticket = "/ticket";
   static const String booking = "/booking";
+  static const String users = "/users";
 }
