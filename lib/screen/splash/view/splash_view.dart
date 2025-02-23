@@ -38,7 +38,8 @@ class _SplashViewState extends State<SplashView> {
             isLoading: isLoading,
             onTab: () {
               //Get.to("/login");
-              Navigator.push(context, MaterialPageRoute(builder: (context) => LoginView()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginView()));
             },
             title: "Login",
             backgroundColor: Colors.blue,
@@ -60,8 +61,9 @@ class _SplashViewState extends State<SplashView> {
           SizedBox(height: 20), //speace
           CustomButtonWedget(
             isLoading: true,
-            onTab: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterView()));
+            onTab: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => RegisterView()));
             },
             title: "Register",
             backgroundColor: Colors.red,
@@ -74,14 +76,14 @@ class _SplashViewState extends State<SplashView> {
           //   title: "Home",
           //   backgroundColor: Colors.blue,
           // ),
-          CustomButtonWedget(
-            isLoading: true,
-            onTab: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => BookingView()));
-            },
-            title: "Booking",
-            backgroundColor: Colors.blue,
-          ),
+          // CustomButtonWedget(
+          //   isLoading: true,
+          //   onTab: (){
+          //     Navigator.push(context, MaterialPageRoute(builder: (context) => BookingView()));
+          //   },
+          //   title: "Booking",
+          //   backgroundColor: Colors.blue,
+          // ),
           // CustomButtonWedget(
           //   isLoading: true,
           //   onTab: (){
