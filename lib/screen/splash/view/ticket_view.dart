@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MovieView extends StatefulWidget {
-  const MovieView({super.key});
+class TicketView extends StatefulWidget {
+  const TicketView({super.key});
 
   @override
-  State<MovieView> createState() => _MovieViewState();
+  State<TicketView> createState() => _TicketViewState();
 }
 
-class _MovieViewState extends State<MovieView> {
+class _TicketViewState extends State<TicketView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

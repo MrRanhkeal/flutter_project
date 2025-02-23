@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class SlideView extends StatefulWidget {
-  const SlideView({super.key});
+class BookingView extends StatefulWidget {
+  const BookingView({super.key});
 
   @override
-  State<SlideView> createState() => _SlideViewState();
+  State<BookingView> createState() => _BookingViewState();
 }
 
-class _SlideViewState extends State<SlideView> {
+class _BookingViewState extends State<BookingView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

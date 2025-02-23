@@ -3,8 +3,8 @@ import 'package:flutter_project/screen/auth/register/view/login_view.dart';
 import 'package:flutter_project/screen/auth/register/view/register_view.dart';
 import 'package:flutter_project/screen/splash/view/home_view.dart';
 import 'package:flutter_project/screen/splash/view/info_view.dart';
-import 'package:flutter_project/screen/splash/view/movie_view.dart';
-import 'package:flutter_project/screen/splash/view/slide_view.dart';
+import 'package:flutter_project/screen/splash/view/ticket_view.dart';
+import 'package:flutter_project/screen/splash/view/booking_view.dart';
 import 'package:flutter_project/widgets/custom_button_widget.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -66,38 +66,38 @@ class _SplashViewState extends State<SplashView> {
             title: "Register",
             backgroundColor: Colors.red,
           ),
-          CustomButtonWedget(
-            isLoading: true,
-            onTab: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => HomeView()));
-            },
-            title: "Home",
-            backgroundColor: Colors.blue,
-          ),
           // CustomButtonWedget(
           //   isLoading: true,
           //   onTab: (){
-          //     Navigator.push(context, MaterialPageRoute(builder: (context) => SlideView()));
+          //     Navigator.push(context, MaterialPageRoute(builder: (context) => HomeView()));
           //   },
-          //   title: "Slide",
-          //   backgroundColor: Colors.blue,
-          // ),
-          // CustomButtonWedget(
-          //   isLoading: true,
-          //   onTab: (){
-          //     Navigator.push(context, MaterialPageRoute(builder: (context) => MovieView()));
-          //   },
-          //   title: "View",
+          //   title: "Home",
           //   backgroundColor: Colors.blue,
           // ),
           CustomButtonWedget(
             isLoading: true,
             onTab: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => InfoView()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => BookingView()));
             },
-            title: "Info",
+            title: "Booking",
             backgroundColor: Colors.blue,
           ),
+          // CustomButtonWedget(
+          //   isLoading: true,
+          //   onTab: (){
+          //     Navigator.push(context, MaterialPageRoute(builder: (context) => TicketView()));
+          //   },
+          //   title: "Ticket",
+          //   backgroundColor: Colors.blue,
+          // ),
+          // CustomButtonWedget(
+          //   isLoading: true,
+          //   onTab: (){
+          //     Navigator.push(context, MaterialPageRoute(builder: (context) => InfoView()));
+          //   },
+          //   title: "Info",
+          //   backgroundColor: Colors.blue,
+          // ),
         ],
       ),
     );

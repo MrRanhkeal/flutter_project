@@ -1,11 +1,11 @@
 import 'package:flutter_project/screen/auth/register/view/login_view.dart';
 import 'package:flutter_project/screen/auth/register/view/register_view.dart';
 import 'package:flutter_project/screen/splash/view/info_view.dart';
-import 'package:flutter_project/screen/splash/view/movie_view.dart';
-import 'package:flutter_project/screen/splash/view/slide_view.dart';
+import 'package:flutter_project/screen/splash/view/booking_view.dart';
 import 'package:flutter_project/screen/splash/view/splash_view.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:flutter_project/screen/splash/view/home_view.dart';
+import 'package:flutter_project/screen/splash/view/ticket_view.dart';
 
 class Routes {
   final routes = [
@@ -14,8 +14,8 @@ class Routes {
     GetPage(name: RouteName.login, page: () => LoginView()),
     GetPage(name: RouteName.home, page: () => HomeView()),
     GetPage(name: RouteName.info, page: () => InfoView()),
-    GetPage(name: RouteName.movie, page: () => MovieView()),
-    GetPage(name: RouteName.slide, page: () => SlideView()),
+    GetPage(name: RouteName.ticket, page: () => TicketView()),
+    GetPage(name: RouteName.booking, page: () => BookingView()),
   ];
 }
 
@@ -25,6 +25,6 @@ class RouteName {
   static const String login = "/login";
   static const String home = "/home";
   static const String info = "/info";
-  static const String movie = "/movie";
-  static const String slide = "/slide";
+  static const String ticket = "/ticket";
+  static const String booking = "/booking";
 }
