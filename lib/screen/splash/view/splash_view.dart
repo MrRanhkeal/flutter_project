@@ -101,14 +101,14 @@ class _SplashViewState extends State<SplashView> {
           //   title: "Info",
           //   backgroundColor: Colors.blue,
           // ),
-          CustomButtonWedget(
-            isLoading: true,
-            onTab: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => UserView()));
-            },
-            title: "users",
-            backgroundColor: Colors.blue,
-          ),
+          // CustomButtonWedget(
+          //   isLoading: true,
+          //   onTab: (){
+          //     Navigator.push(context, MaterialPageRoute(builder: (context) => UserView()));
+          //   },
+          //   title: "users",
+          //   backgroundColor: Colors.blue,
+          // ),
         ],
       ),
     );
