@@ -11,19 +11,19 @@ class _InfoViewState extends State<InfoView> {
   final List<Map<String, String>> cinemas = [
     {
       'name': 'Phnom Penh Cinema',
-      'image': 'assets/phnompenh.jpg',
+      'image': 'assets/image/phnompenh.jpg',
     },
     {
       'name': 'Sihanouk Cinema',
-      'image': 'assets/sihanouk_cinema.jpg',
+      'image': 'assets/image/sihanouk_cinema.jpg',
     },
     {
       'name': 'Siemreap Cinema',
-      'image': 'assets/sihanouk_cinema.jpg',
+      'image': 'assets/image/sihanouk_cinema.jpg',
     },
     {
       'name': 'Battambang Cinema',
-      'image': 'assets/battambang_cinema.jpg',
+      'image': 'assets/image/battambang_cinema.jpg',
     },
   ];
   @override
