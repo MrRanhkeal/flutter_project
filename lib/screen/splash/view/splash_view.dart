@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_project/screen/auth/register/view/login_view.dart';
 import 'package:flutter_project/screen/auth/register/view/register_view.dart';
 import 'package:flutter_project/screen/splash/view/home_view.dart';
+import 'package:flutter_project/screen/splash/view/slide_view.dart';
 import 'package:flutter_project/widgets/custom_button_widget.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -69,7 +70,15 @@ class _SplashViewState extends State<SplashView> {
               Navigator.push(context, MaterialPageRoute(builder: (context) => HomeView()));
             },
             title: "Home",
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.blue,
+          ),
+          CustomButtonWedget(
+            isLoading: true,
+            onTab: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => SlideView()));
+            },
+            title: "Slide",
+            backgroundColor: Colors.blue,
           ),
         ],
       ),

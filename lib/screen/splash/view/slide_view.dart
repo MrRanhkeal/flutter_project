@@ -20,7 +20,7 @@ class _SlideViewState extends State<SlideView> {
               alignment: Alignment.bottomCenter,
               children: [
                 Image.network(
-                  'https://upload.wikimedia.org/wikipedia/en/9/99/Ip_Man_4_poster.jpeg',
+                  'https://m.media-amazon.com/images/M/MV5BOGVjMDEzNjMtMWJmMy00NDdjLWFkMzItOTBhZTE3OWU0YmM4XkEyXkFqcGc@._V1_.jpg',
                   fit: BoxFit.cover,
                   width: double.infinity,
                   height: double.infinity,

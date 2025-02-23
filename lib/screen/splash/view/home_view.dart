@@ -12,7 +12,7 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         title: DropdownButton<String>(
           value: 'Location',
           dropdownColor: Colors.black,
